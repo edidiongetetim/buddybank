@@ -1,3 +1,8 @@
+/*
+Author: Edidiong Okon (101204818)
+Date: September 19, 2022
+ */
+
 import java.util.ArrayList;
 
 public class AddressBook {
@@ -10,12 +15,15 @@ public class AddressBook {
     public void addBuddy(BuddyInfo buddy){
         this.buddies.add(buddy);
     }
+
     public void removeBuddy(BuddyInfo buddy){
         this.buddies.remove(buddy);
     }
 
     public static void main(String [] args){
-        System.out.println("Address Book");
-        System.out.println("Find buddies");
+        BuddyInfo buddy = new BuddyInfo ("Dami", "Lagos", "+2349072135711");
+        AddressBook addressBook = new AddressBook ();
+        addressBook.addBuddy(buddy);
+        addressBook.removeBuddy(buddy);
     }
 }
