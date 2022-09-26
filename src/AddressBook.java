@@ -7,20 +7,20 @@ import java.util.ArrayList;
 
 public class AddressBook {
 
-    private ArrayList<BuddyInfo> buddies;
+    private ArrayList<BuddyInfo> myBuddies;
 
     public AddressBook(){
 
-        this.buddies = new ArrayList<>();
+        this.myBuddies = new ArrayList<>();
     }
     public void addBuddy(BuddyInfo buddy){
 
-        this.buddies.add(buddy);
+        this.myBuddies.add(buddy);
     }
 
     public void removeBuddy(BuddyInfo buddy){
 
-        this.buddies.remove(buddy);
+        this.myBuddies.remove(buddy);
     }
 
     public static void main(String [] args){
