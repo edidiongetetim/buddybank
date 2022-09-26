@@ -11,16 +11,16 @@ public class AddressBook {
 
     public AddressBook(){
 
-        buddies = new ArrayList<>();
+        this.buddies = new ArrayList<>();
     }
     public void addBuddy(BuddyInfo buddy){
 
-        buddies.add(buddy);
+        this.buddies.add(buddy);
     }
 
     public void removeBuddy(BuddyInfo buddy){
 
-        buddies.remove(buddy);
+        this.buddies.remove(buddy);
     }
 
     public static void main(String [] args){

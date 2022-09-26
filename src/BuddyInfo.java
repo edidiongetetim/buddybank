@@ -31,7 +31,7 @@ public class BuddyInfo {
 
 
     public static void main(String[] args) {
-        BuddyInfo buddyinfo = new BuddyInfo("Homer", "1233 Colonel By Drive", "3435665444");
+        BuddyInfo buddyinfo = new BuddyInfo("Gomez", "1233 Colonel By Drive", "3435665444");
 
         System.out.println("Hello world!");
     }
