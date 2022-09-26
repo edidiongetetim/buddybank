@@ -13,6 +13,7 @@ public class AddressBook {
 
         this.myBuddies = new ArrayList<>();
     }
+
     public void addBuddy(BuddyInfo buddy){
 
         this.myBuddies.add(buddy);
@@ -21,6 +22,11 @@ public class AddressBook {
     public void removeBuddy(BuddyInfo buddy){
 
         this.myBuddies.remove(buddy);
+    }
+
+    public void replaceBuddy(int index, BuddyInfo buddy){
+
+        this.myBuddies.set(index, buddy);
     }
 
     public static void main(String [] args){
